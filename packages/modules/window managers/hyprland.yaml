@@ -5,10 +5,35 @@ description: Hyprland WM module
 
 # List of packages in this module
 packages:
-  - hyprland
+  - hyprland # Main compositor
   - hyprlock
   - hyprpicker
   - hyprpolkitagent
+  - hyprpaper # Wallpaper utility
+  - dms-shell-bin # DankMaterialShell (bar, notifications, launcher, lock)
+  - rofi
+  - fastfetch
+  - kitty
+  - quickshell # DMS dependency
+  - xdg-desktop-portal-hyprland # Desktop portal
+  - qt5-wayland # Qt5 Wayland support
+  - qt6-wayland # Qt6 Wayland support
+  - wl-clipboard # Clipboard utilities
+  - grim # Screenshot tool
+  - slurp # Region selector
+  - swww
+  - slurp
+  - swaync
+  - swaybg
+  - swayidle
+  - swaylock
+  - nwg-displays # Display configuration
+  - brightnessctl # Brightness control
+  - pavucontrol # Audio control
+  - network-manager-applet # Network manager GUI
+  # - noctalia-shell # A beautiful, minimal desktop shell for Wayland
+  - gtk3 # GTK 3 libraries
+  - gtk4 # GTK 4 libraries
 
 # Modules that conflict with this one
 conflicts: []

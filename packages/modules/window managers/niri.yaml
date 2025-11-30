@@ -1,7 +1,7 @@
 # Example module template
 # Copy this to create new modules, or delete it
 
-description: Niri WM module with its dependencies
+description: Niri WM module
 
 # List of packages in this module
 packages:
