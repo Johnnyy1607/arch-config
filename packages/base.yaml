@@ -1,0 +1,39 @@
+# Base packages installed on all machines
+# These packages form the foundation of your system
+
+description: Base packages for all machines
+
+packages:
+  - base
+  - base-devel
+  - bash
+  - linux
+  - linux-firmware
+  - networkmanager
+  - network-manager-applet
+  - neovim
+  - ninja
+  - vim
+  - git
+  - less # additionnal git features (stash,etc)
+  - go-yq # YAML processor for dcli
+  - inetutils
+  - htop
+  - btop
+  - man-db
+  - man-pages
+  - mesa-utils
+  - mesa
+  - yay
+  - sddm
+  - rust
+  - pacman-contrib
+  - ntfs-3g
+  - nwg-displays
+  - nwg-look
+  - mousepad
+  - make
+  - automake
+  - cronie
+  - curl
+  - iwd

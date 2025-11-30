@@ -1,0 +1,21 @@
+# Gaming packages and tools
+# Everything needed for gaming on Linux
+
+description: Gaming packages and tools for Linux gaming
+
+packages:
+  - steam # Steam gaming platform
+  - gamescope # Gaming compositor
+  - mangohud # Performance overlay
+  - gamemode # Optimize system for gaming
+  - protonup-qt # Proton version manager
+  - portproton # Wine GUI
+  # - hydra # Cracked game library/launcher
+  - onlinefix-linux-launcher-bin # Launcher for OF games
+  - wine
+  - winetricks
+  - vulkan-radeon
+  - vulkan-tools
+
+conflicts: []
+post_install_hook: ""

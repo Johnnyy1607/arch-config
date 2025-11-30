@@ -1,0 +1,59 @@
+# Main applications
+# Essential applications for daily workflow
+
+description: Main applications and utilities for daily use
+
+packages:
+  # Terminal
+  - kitty # GPU-accelerated terminal emulator
+  - fastfetch # System information utility
+
+  # Shell
+  - quickshell
+  - dms-shell-bin
+
+  # Application Launchers
+  - rofi
+
+  # Disk space managers
+  - ncdu # TUI Disk space manager
+
+  # File managers
+  - thunar # XFCE file manager
+  - yazi # TUI disk file manager
+  - dolphin # Plasma file manager
+
+  # Clipboard utilities
+  - wl-clipboard # Wayland clipboard utilities
+  - cliphist # Clipboard history manager
+
+  # Messaging
+  - discord # Discord client (AUR)
+
+  # Web browsers
+  - firefox # Browser
+
+  # Productivity
+  - obsidian # Obsidian notes app (AUR)
+
+  # Development
+  - zed # Zed code editor (AUR)
+  - thonny # Beginner Python IDE (AUR)
+  - python
+
+  # Zip/Rar tools
+  - 7zip
+  - unrar
+  - unzip
+
+  # Backup tools
+  - timeshift
+  - xorg-xhost # dependency for timeshift
+
+  # Others
+  - gparted # Partitioning
+  - wev # Keybinds tester
+  - okular # PDF editor
+
+conflicts: []
+post_install_hook: ""

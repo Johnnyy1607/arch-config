@@ -1,0 +1,9 @@
+# Host-specific packages for johnny
+# Add packages unique to this machine (drivers, hardware-specific tools, etc.)
+description: Packages specific to johnny
+
+# Packages to install on this host
+packages: []
+
+# Packages to exclude from base or modules on this host
+exclude: []

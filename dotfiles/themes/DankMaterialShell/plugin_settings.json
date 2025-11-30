@@ -1,0 +1,13 @@
+{
+  "dankPomodoroTimer": {
+    "enabled": true
+  },
+  "calculator": {
+    "enabled": false,
+    "trigger": "=",
+    "noTrigger": false
+  },
+  "wallpaperDiscovery": {
+    "enabled": true
+  }
+}

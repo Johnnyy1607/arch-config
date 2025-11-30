@@ -1,0 +1,7 @@
+description: Development tools including IDEs
+
+packages:
+  - thonny
+  - zed
+
+conflicts: []
