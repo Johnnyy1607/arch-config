@@ -3,7 +3,9 @@
 description: Packages specific to johnny
 
 # Packages to install on this host
-packages: []
+packages:
+  - vulkan-tools
+  - vulkan-radeon
 
 # Packages to exclude from base or modules on this host
 exclude: []

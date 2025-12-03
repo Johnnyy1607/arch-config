@@ -12,6 +12,9 @@ packages:
   - quickshell
   - dms-shell-bin
 
+  # Text editors
+  - mousepad
+
   # Application Launchers
   - rofi
 

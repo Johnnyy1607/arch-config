@@ -31,7 +31,6 @@ packages:
   - ntfs-3g
   - nwg-displays
   - nwg-look
-  - mousepad
   - make
   - automake
   - cronie
